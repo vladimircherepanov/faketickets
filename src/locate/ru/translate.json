@@ -1,0 +1,21 @@
+{
+  "translations": {
+    "title_text": "Fake Tickets прикола ради",
+    "hello": "Приветствуем",
+    "find_button": "НАЙТИ",
+    "arrival": "Отправление",
+    "destination": "Прибытие",
+    "arrivalDate": "Дата Туда",
+    "returnDate": "Дата Обратно",
+    "oneWay": "ТОЛЬКО",
+    "selectArrivalDate": "Выберите дату вылета",
+    "selectOneWay": "БЕЗ ОБРАТНОГО БИЛЕТА",
+    "selectOneWayButton": "В ОДИН КОНЕЦ",
+    "submit": "ПОДТВЕРДИТЬ ВЫБОР",
+    "reset": "СБРОСИТЬ",
+    "selectReturnDate": "Выберите дату возвращения",
+    "USD": "Доллар США",
+    "EUR": "Евро",
+    "RUB": "Рубль"
+  }
+}

@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+}
+.flag {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.currency {
+  min-width: 70px;
+}
+
+.table {
+  margin-bottom: 0; /* убрал отступ между элементами таблицы */
+  opacity: 1;
+}
+.navbar-brand {
+  margin-left: 1rem;
+}
+.airportList {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+}
+
+.btn-close {
+  height: none;
+}
+
+.cont {
+  padding: 10px 10px 10px 10px;
+}
+
+.flag {
+  text-align: right;
+  width: 7%;
+}
+
+.country {
+  text-align: right;
+  color: gray;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11pt; /* Размер шрифта в пунктах */
+}
+
+.airport {
+  margin-right: 10px;
+  text-align: left;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Selectable
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.Selectable .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.Selectable .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.Selectable
+  .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #4a90e2 !important;
+  color: white;
+}
+.RangeExample {
+  position: absolute;
+  opacity: 1;
+  z-index: 1;
+
+  background-color: #f0f8ff !important;
+  margin-top: 10px;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+}
+.CalendarTitle {
+  padding-top: 15px;
+}
+
+@media (max-width: 450px) {
+  .RangeExample {
+    min-width: 100%;
+
+    margin-left: -10px;
+    border-radius: 0;
+    background-color: grey !important;
+    margin-top: -140px;
+    border: 0;
+  }
+  .DayPicker {
+    font-size: 1.2rem !important;
+  }
+}
+.btn-warning {
+  margin-bottom: 2rem;
+}
