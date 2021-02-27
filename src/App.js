@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import AirportSelection from "./components/AirportSelection";
-import FlightList from "./components/FlightList";
+//import FlightList from "./components/FlightList";
 import FindButton from "./components/FindButton";
 import DatePicker from "./components/DatePicker";
 import Navbar from "./components/Navbar";
@@ -16,7 +16,6 @@ export default function App() {
     <div className="App">
       <Navbar />
       <div className="cont w-100">
-        <h1>{t("hello")}</h1>
         <div className="row">
           <div className="col-sm-12 col-md-3">
             <AirportSelection dir={"from"} placeholder={t("arrival")} />
